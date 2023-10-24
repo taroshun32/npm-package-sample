@@ -12,6 +12,9 @@
     "build:cjs": "tsc --project tsconfig.cjs.json",
     "build:esm": "tsc --project tsconfig.esm.json"
   },
+  "bin": {
+    "my-package": "dist/cjs/bin/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
